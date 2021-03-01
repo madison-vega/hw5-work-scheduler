@@ -13,7 +13,7 @@ var today = moment().format('dddd MMMM Do, YYYY, HH:mm a');
 $('#currentDay').text(today);
 
 // variables to get handle on text input
-var input9 = $('#9');
+var input9 = $('#9') 
 var input10 = $('#10');
 var input11 = $('#11');
 var input12 = $('#12');
@@ -44,10 +44,10 @@ saveBtn9.on('click', function (event) {
 
 
 });
-    var item9Content = localStorage.getItem('item19');
-    input9.text(item9Content);
+var item9Content = localStorage.getItem('item9');
+input9.text(item9Content);
 
-    
+
 saveBtn10.on('click', function (event) {
     event.preventDefault();
     var input10 = $('#10').val().trim();
@@ -130,5 +130,82 @@ var item17Content = localStorage.getItem('item17');
     input17.text(item17Content);
 
 
+// variables to get the current time
+var date = new Date();
+var currentTime = date.getHours();
 
+
+// if statements with logic to compare current time with time block 
+// add the classes of present future or past to style accordingly 
+
+if (currentTime === 9) {
+    input9.addClass('present');
+} else if (currentTime < 9) {
+    input9.addClass('future');
+} else if (currentTime > 9) {
+    input9.addClass('past')
+};
+
+if (currentTime === 10) {
+    input10.addClass('present');
+} else if (currentTime < 10) {
+    input10.addClass('future');
+} else if (currentTime > 10) {
+    input10.addClass('past')
+};
+
+if (currentTime === 11) {
+    input11.addClass('present');
+} else if (currentTime < 11) {
+    input11.addClass('future');
+} else if (currentTime > 11) {
+    input11.addClass('past')
+};
+
+if (currentTime === 12) {
+    input12.addClass('present');
+} else if (currentTime < 12) {
+    input12.addClass('future');
+} else if (currentTime > 12) {
+    input12.addClass('past')
+};
+
+if (currentTime === 13) {
+    input13.addClass('present');
+} else if (currentTime < 13) {
+    input13.addClass('future');
+} else if (currentTime > 13) {
+    input13.addClass('past')
+};
+
+if (currentTime === 14) {
+    input14.addClass('present');
+} else if (currentTime < 14) {
+    input14.addClass('future');
+} else if (currentTime > 14) {
+    input14.addClass('past')
+};
+
+if (currentTime === 15) {
+    input15.addClass('present');
+} else if (currentTime < 15) {
+    input15.addClass('future');
+} else if (currentTime > 15) {
+    input15.addClass('past')
+};
+
+if (currentTime === 16) {
+    input16.addClass('present');
+} else if (currentTime < 16) {
+    input16.addClass('future');
+} else if (currentTime > 16) {
+    input16.addClass('past')
+};
+if (currentTime === 17) {
+    input17.addClass('present');
+} else if (currentTime < 17) {
+    input17.addClass('future');
+} else if (currentTime > 17) {
+    input17.addClass('past')
+};
 
