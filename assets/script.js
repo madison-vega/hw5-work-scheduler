@@ -1,3 +1,13 @@
+
+// need to use moment to display current time
+// need variables to get handles on ids from html for input and save buttons
+// need click event listeners to ensure save button saves input value to local storage and shows in html
+// need if statements and logic to determine if the current time matches each timeslot to determine if past present of future
+    // need variable to determine what current time is
+
+
+
+
 // shows current day and time in html
 var today = moment().format('dddd MMMM Do, YYYY, HH:mm a');
 $('#currentDay').text(today);
@@ -31,74 +41,94 @@ saveBtn9.on('click', function (event) {
     event.preventDefault();
     var input9 = $('#9').val().trim();
     localStorage.setItem('item9', input9);
-    localStorage.getItem('item9');
 
-    
 
 });
+    var item9Content = localStorage.getItem('item19');
+    input9.text(item9Content);
 
-
+    
 saveBtn10.on('click', function (event) {
     event.preventDefault();
-    var input9 = $('#10').val().trim();
+    var input10 = $('#10').val().trim();
     localStorage.setItem('item10', input10);
-    localStorage.getItem('item10');
+    
     
 
 });
+var item10Content = localStorage.getItem('item10');
+    input10.text(item10Content);
 
 saveBtn11.on('click', function (event) {
     event.preventDefault();
-    var input9 = $('#11').val().trim();
+    var input11 = $('#11').val().trim();
     localStorage.setItem('item11', input11);
-    localStorage.getItem('item11');
+    
 
 });
+var item11Content = localStorage.getItem('item11');
+    input11.text(item11Content);
 
 saveBtn12.on('click', function (event) {
     event.preventDefault();
-    var input9 = $('#12').val().trim();
+    var input12 = $('#12').val().trim();
     localStorage.setItem('item12', input12);
-    localStorage.getItem('item12');
+    
 
 });
+var item12Content = localStorage.getItem('item12');
+    input12.text(item12Content);
 
 saveBtn13.on('click', function (event) {
     event.preventDefault();
-    var input9 = $('#13').val().trim();
+    var input13 = $('#13').val().trim();
     localStorage.setItem('item13', input13);
-    localStorage.getItem('item13');
+    
 
 });
+var item13Content = localStorage.getItem('item13');
+    input13.text(item13Content);
 
 saveBtn14.on('click', function (event) {
     event.preventDefault();
-    var input9 = $('#14').val().trim();
+    var input14 = $('#14').val().trim();
     localStorage.setItem('item14', input14);
-    localStorage.getItem('item14');
+    
 
 });
+var item14Content = localStorage.getItem('item14');
+    input14.text(item14Content);
 
 saveBtn15.on('click', function (event) {
     event.preventDefault();
-    var input9 = $('#15').val().trim();
+    var input15 = $('#15').val().trim();
     localStorage.setItem('item15', input15);
-    localStorage.getItem('item15');
+    
 
 });
+var item15Content = localStorage.getItem('item15');
+    input15.text(item15Content);
 
 saveBtn16.on('click', function (event) {
     event.preventDefault();
-    var input9 = $('#16').val().trim();
+    var input16 = $('#16').val().trim();
     localStorage.setItem('item16', input16);
-    localStorage.getItem('item16');
+    
 
 });
+var item16Content = localStorage.getItem('item16');
+    input16.text(item16Content);
 
 saveBtn17.on('click', function (event) {
     event.preventDefault();
-    var input9 = $('#17').val().trim();
+    var input17 = $('#17').val().trim();
     localStorage.setItem('item17', input17);
-    localStorage.getItem('item17');
+    
 
 });
+var item17Content = localStorage.getItem('item17');
+    input17.text(item17Content);
+
+
+
+
