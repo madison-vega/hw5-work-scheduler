@@ -6,13 +6,14 @@ This application is intended to ease the stresses of daily life by providing a w
 
 ## Usage
 
+This application is utilized by typing in your schedule details to the appropriate time blocks and saving by clicking the button.  This will keep track of your schedule even if the page is closed out, the information will still display until you replace it.  Depending on the time of day, if the time block is in the past it will color code it gray, if it is in the present it will color code it red, and if it is in the future it will color code it green.  There is a clock at the top displaying the local time and date for ease of use.
 
-
-
-
+![scheduler](assets/schedule.png)
 
 ## Links
 
+This is a link to the live site:[Live Site](https://madison-vega.github.io/hw5-work-scheduler/index.html)
+This is a link to the repository:[Repo](https://github.com/madison-vega/hw5-work-scheduler)
 
 
 ### License
