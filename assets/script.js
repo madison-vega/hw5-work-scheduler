@@ -13,6 +13,7 @@ var input15 = $('#15').val('');
 var input16 = $('#16').val('');
 var input17 = $('#17').val('');
 
+// variables to get a handle on the save buttons
 var saveBtn9 = $('#savebtn9');
 var saveBtn10 = $('#savebtn10');
 var saveBtn11 = $('#savebtn11');
@@ -23,3 +24,48 @@ var saveBtn15 = $('#savebtn15');
 var saveBtn16 = $('#savebtn16');
 var saveBtn17 = $('#savebtn17');
 
+// event listeners for save button to save information to local storage
+saveBtn9.on('click', function (event) {
+    event.preventDefault();
+
+});
+
+saveBtn10.on('click', function (event) {
+    event.preventDefault();
+
+});
+
+saveBtn11.on('click', function (event) {
+    event.preventDefault();
+
+});
+
+saveBtn12.on('click', function (event) {
+    event.preventDefault();
+
+});
+
+saveBtn13.on('click', function (event) {
+    event.preventDefault();
+
+});
+
+saveBtn14.on('click', function (event) {
+    event.preventDefault();
+
+});
+
+saveBtn15.on('click', function (event) {
+    event.preventDefault();
+
+});
+
+saveBtn16.on('click', function (event) {
+    event.preventDefault();
+
+});
+
+saveBtn17.on('click', function (event) {
+    event.preventDefault();
+
+});
